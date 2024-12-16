@@ -1,0 +1,31 @@
+.condition-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.condition-row select,
+.condition-row input {
+    margin-right: 10px;
+}
+
+.condition-row.hidden {
+    display: none;
+}
+
+.add-condition {
+    background-color: #2d89ef;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.delete-condition {
+    background-color: #e81123;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
